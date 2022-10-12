@@ -64,4 +64,4 @@ function resolve(path, obj) {
   }, obj || self)
 }
 
-module.TemplatingManager = TemplatingManager;
+module.exports = TemplatingManager;
