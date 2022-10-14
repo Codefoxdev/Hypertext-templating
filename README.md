@@ -52,4 +52,4 @@ templating.compile("path-to-you-html-file", {
 Here the first parameter is the path to your html file, and the second is your variables, here I created an object called "user" with an item called "name" which I used in my HTML file, but you can use whatever you want!
 
 If you have a problem, ask it on the github repo: 
-https://github.com/CodeFoxDev/Templating
+https://github.com/CodeFoxDev/Hypertext-templating
