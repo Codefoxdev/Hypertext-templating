@@ -20,6 +20,12 @@ class TemplatingManager {
       suffix: (options.variables != null) ? (options.variables.suffix ?? "{") : "{",
     }
   }
+  /**
+   * 
+   * @param {String} srcFile Relative path to the file you want to compile
+   * @param {Object} variables Define variables to use when compiling html file
+   * @returns {String} Compiled version of the src file
+   */
   compile(srcFile, variables) {
     if (srcFile == null) { throw new Error("Please provide a source file!"); }
     if (!existsSync(srcFile)) { throw new Error(""); }
