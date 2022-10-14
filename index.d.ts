@@ -1,4 +1,13 @@
-import TemplatingManager from ".";
+declare class TemplatingManager{
+  constructor(options: TemplatingConstrutorOptions);
 
-declare const templateManager: TemplatingManager;
-export default templateManager;
+  compile(srcFile: String, variables: Object): String;
+};
+
+interface TemplatingConstrutorOptions {
+  variables?: TemplatingConstrutorVariables
+}
+interface TemplatingConstrutorVariables {
+  prefix: String,
+  suffix: String
+}
