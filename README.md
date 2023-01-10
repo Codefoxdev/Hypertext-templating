@@ -15,7 +15,7 @@ npm install hypertext-templating
 
 ```js:index.js
 ...
-const TemplatingManager = require("templating");
+const TemplatingManager = require("hypertext-templating");
 const templating = new TemplatingManager({
   variables: {
     prefix: "{{",
