@@ -1,7 +1,7 @@
 # Hypertext templating (v0.2.0)
 Hypertext templating is a node module used for compiling html with custom user variables.
 
-# Getting started
+## Getting started
 
 1. First install the module with:
 
