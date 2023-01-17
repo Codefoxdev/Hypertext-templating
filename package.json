@@ -1,11 +1,8 @@
 {
   "name": "hypertext-templating",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Hypertext templating is a node module used for compiling html with custom user variables.",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
   "author": "Codefoxdev",
   "license": "MIT",
   "keywords": [
@@ -15,6 +12,9 @@
     "back-end"
   ],
   "dependencies": {
-    "markdown": "^0.5.0"
+    "fs": "^0.0.1-security"
+  },
+  "exports": {
+    ".": "./index.js"
   }
 }
